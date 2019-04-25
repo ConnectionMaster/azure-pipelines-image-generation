@@ -2,12 +2,12 @@
 
 The following software is installed on machines in the Azure Pipelines **macOS-10.13** VM image ('Hosted macOS High Sierra' pool).
 
-## Upcoming Image Changes
+## Majority Image Changes
 
-
-- We will be switching to use [Azul OpenJDKs](https://azure.microsoft.com/en-us/blog/microsoft-and-azul-systems-bring-free-java-lts-support-to-azure/) in April 2019. We will support Azul OpenJDKs 7, 8, and 11 and will be deprecating support for Java 9 and 10.
-
-- We will be switching to use Xcode 10.1 by default in two weeks.
+- Switched to [Azul OpenJDKs](https://azure.microsoft.com/en-us/blog/microsoft-and-azul-systems-bring-free-java-lts-support-to-azure/)
+- Add support Azul OpenJDKs 7, 8, and 11
+- Deprecated support for Java 9 and 10
+- Set Xcode 10.1 by default
 
 ## Operating System
 
@@ -18,11 +18,10 @@ The following software is installed on machines in the Azure Pipelines **macOS-1
 
 ### Language and Runtime
 
-- Java 1.7.0_80
-- Java 1.8.0_202
-- Java 9.0.4
-- Java 10.0.2
-- Java 11.0.2
+- java 1.7 : OpenJDK Runtime Environment (Zulu 7.29.0.5-CA-macosx) (build 1.7.0_222-b08)
+- java 1.8 : OpenJDK Runtime Environment (Zulu 8.38.0.13-CA-macosx) (build 1.8.0_212-b04) (default)
+- java 11 : OpenJDK Runtime Environment Zulu11.31+11-CA (build 11.0.3+7-LTS)
+- java 12 : OpenJDK Runtime Environment Zulu12.2+3-CA (build 12.0.1+12)
 - Node.js 6.17.0
 - Node.js 8.11.3
 - NVM 0.33.11
@@ -32,14 +31,14 @@ The following software is installed on machines in the Azure Pipelines **macOS-1
 - Python 3.7.3
 - Ruby 2.6.2p47
 - .NET Core SDK 1.0.1, 1.0.4, 1.1.4, 1.1.5, 1.1.7, 1.1.8, 1.1.9, 1.1.10, 1.1.11, 1.1.12, 1.1.13, 2.0.0, 2.0.3, 2.1.100, 2.1.101, 2.1.102, 2.1.103, 2.1.104, 2.1.105, 2.1.503, 2.1.504, 2.1.505, 2.1.2, 2.1.200, 2.1.201, 2.1.300, 2.1.301, 2.1.4, 2.1.400, 2.1.401 2.1.402 2.1.502, 2.1.504, 2.2.101, 2.2.102, 2.2.103, 2.2.104, 2.2.105
-- Go 1.12.3
+- Go 1.12.4
 
 ### Package Management
 
 - Bundler 2.0.1
 - Carthage 0.33.0
 - **CocoaPods 1.6.1** (Please, pay attention here. You may face an issue with pod install due to old dependencies in your pod file. In that case, you need to update your pod file with newer dependencies or rollback to CocoaPods 1.5.3 using this [post-clone script](https://github.com/Microsoft/appcenter-build-scripts-examples/tree/master/general/cocoapods-rollback))
-- Homebrew 2.1.0
+- Homebrew 2.1.1
 - NPM 3.10.10
 - Yarn 1.15.2
 - NuGet 4.7.0.5148
@@ -49,8 +48,8 @@ The following software is installed on machines in the Azure Pipelines **macOS-1
 
 ### Project Management
 
-- Apache Maven 3.6.0
-- Gradle 5.3.1
+- Apache Maven 3.6.1
+- Gradle 5.4
 
 ### Utilities
 
@@ -68,7 +67,7 @@ The following software is installed on machines in the Azure Pipelines **macOS-1
 - Azure-CLI 2.0.62
 
 ### Pre-cached tools
-- Python 2.7.15 3.4.8 3.5.5 3.6.8 3.7.2
+- Python 2.7.16 3.4.8 3.5.7 3.6.8 3.7.3
 
 ### Xcode
 | Version                | Build   | Path                          |
