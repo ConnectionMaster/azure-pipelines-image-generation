@@ -2,6 +2,8 @@
 
 The following software is installed on machines in the Azure Pipelines **macOS-10.13** VM image ('Hosted macOS High Sierra' pool).
 
+## Upcoming Image Changes
+
 ## Majority Image Changes
 
 - Switched to [Azul OpenJDKs](https://azure.microsoft.com/en-us/blog/microsoft-and-azul-systems-bring-free-java-lts-support-to-azure/)
