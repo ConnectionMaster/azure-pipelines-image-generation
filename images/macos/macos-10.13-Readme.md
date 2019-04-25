@@ -69,6 +69,7 @@ The following software is installed on machines in the Azure Pipelines **macOS-1
 
 ### Pre-cached tools
 - Python 2.7.16 3.4.8 3.5.7 3.6.8 3.7.3
+- Ruby 2.3.8 2.4.6 2.5.5 2.6.2
 
 ### Xcode
 | Version                | Build   | Path                          |
