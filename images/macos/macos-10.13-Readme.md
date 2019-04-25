@@ -5,7 +5,8 @@ The following software is installed on machines in the Azure Pipelines **macOS-1
 ## Majority Image Changes
 
 - Switched to [Azul OpenJDKs](https://azure.microsoft.com/en-us/blog/microsoft-and-azul-systems-bring-free-java-lts-support-to-azure/)
-- Add support Azul OpenJDKs 7, 8,11 and 12
+- Add support Azul OpenJDKs 7, 8, 11 and 12
+- Set Azul OpenJDKs 8 by default
 - Deprecated support for Java 9 and 10
 - Set Xcode 10.1 by default
 
